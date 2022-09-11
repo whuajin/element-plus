@@ -1,6 +1,6 @@
 import { mount } from '@vue/test-utils'
 import { describe, expect, it, vi } from 'vitest'
-import { REPEAT_DELAY, REPEAT_INTERVAL, vRepeatClick } from '../repeat-click'
+import { REPEAT_DELAY, REPEAT_INTERVAL, vRepeatClick } from '../src'
 
 const PRESS_TIME = REPEAT_DELAY + REPEAT_INTERVAL
 let handler: ReturnType<typeof vi.fn>
